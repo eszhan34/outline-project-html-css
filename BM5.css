@@ -1,0 +1,20 @@
+.splide img {
+  width: 100%;
+}
+.BMW3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.BMW3 p {
+  width: 600px;
+}
+@media (max-width: 1200px) {
+  .BMW3 {
+    flex-direction: column;
+  }
+  .BMW3 p {
+    text-align: center;
+    width: 100%;
+  }
+}
